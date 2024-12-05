@@ -1,0 +1,329 @@
+
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    background-color: #1F1F1F;
+    height: 20%;
+   
+ }
+ .full{
+    
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 18% 80%;
+ }
+ .main{
+    width: 100%;
+    height: 86%;
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: black;
+ }
+.menu0{
+   
+    display: grid;
+    grid-template-columns: 15% 15%;
+    /* grid-template-rows: 30% 15% 15% ; */
+    
+    column-gap: 10%;
+    
+    text-align: left;
+    
+  }
+  .menu01{
+   
+    display: grid;
+    grid-template-columns: 15% 15%;
+    /* grid-template-rows: 20% 20% 20% ; */
+    
+    column-gap: 10%;
+    
+    text-align: left;
+    
+  }
+  
+  
+  .white {
+      color: white;  
+      
+      font-size: 70%;
+      margin-right: -80px;
+      font-family: system-ui;
+     text-align: left;
+
+  }
+  
+  #img_menu2{
+   margin-left: 50%;
+   max-width: 50%;
+  }
+  #img_menu1{
+    display: grid;
+    grid-column: 1/3;
+  padding: 10%;
+    
+  }
+#img_menu3{
+    max-width: 150%;
+    display: grid;
+
+}
+.fav0{
+    display: grid;
+    
+}
+.fav{
+    margin-top: -10%;
+    margin-left: 7%;
+    font-size: 90%;
+    color: white;
+    
+}
+.white1 {
+
+    color: white; 
+    
+    margin-left: 7%;
+    font-size: 80%;
+
+
+    font-family: system-ui;
+   
+
+}
+.menu02{
+   height: 20%;;
+    display: grid;
+    grid-template-columns: 15% 15%;
+    /* grid-template-rows: 20% 20% 20% ; */
+    
+    column-gap: 10%;
+    
+    text-align: left;
+    
+  }
+.nav{
+   display: grid;
+   grid-template-columns: 80% 20%;
+   width: 100%;
+   height: 4%;
+ 
+
+
+}
+/* .nav1{
+    width: 20%;
+    height: 10%;
+} */
+.rig_but{
+  
+   
+    display: grid;
+    justify-items: flex-start;
+    margin-left: 4%;
+   
+}
+.rig_but1{
+    margin-top: .3%;
+    max-width: 90%;
+    max-height: 20%;
+    display: grid;
+    justify-items: flex-start;
+   
+}
+.lef_but{
+  
+   
+    display: grid;
+    justify-items: flex-end;
+   
+}
+.lef_but1{
+    margin-top: 1%;
+    max-width: 90%;
+    max-height: 20%;
+    display: grid;
+    justify-items: flex-start;
+   
+}
+.gm{
+    display: grid;
+    grid-column: 1/3;
+    color: white;
+    font-family: system-ui;
+    font-size: 200%;
+    margin-left: 4%;
+    font-weight: bold;
+}
+.img{
+    display: grid;
+    grid-template-columns: 6% 20% 6% 20% 6% 20% 6% 20% ;
+    grid-template-rows: 75% 75%;
+    
+    
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.largeicon{
+    max-width: 100%;
+    
+    
+}
+.text{
+    width: 90%;
+    height: 63.5%;
+    background-color: #303030;
+    background-repeat: no-repeat;
+    color: white;
+    display: grid;
+    font-family: system-ui;
+    align-items: center;
+    margin-right: 40%;
+}
+.whitetex{
+    margin-left: 4%;
+}
+.like{
+    margin-top: 10%;
+    display: grid;
+    grid-column: 1/3;
+    color: white;
+    font-family: system-ui;
+    font-size: 150%;
+    margin-left: 4%;
+    font-weight: bold;
+}
+.largimg{
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17% 17% 17%;
+    margin-left: 4%;
+    
+    
+}
+.larg{
+    background-color: #181818;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-left: 4%;
+    margin-top: 30%;
+}
+.larimg_{
+    margin-top: 8%;
+    border-radius: 2%;
+    margin: 8% 8% 8% 8% ;
+
+}
+.lartext1{
+font-size: 100%;
+color: white;
+font-family: system-ui;
+
+}
+.lartext2{
+    font-size: 80%;
+    color: white;
+    font-family: system-ui;
+  
+    
+    }
+    .last{
+        margin-top: -8.5%;
+    display: grid;
+    grid-template-columns: 10% 20% 5% 40% 25% ;
+
+    background-color: #303030;
+
+    }
+    .lasttext{
+        display: grid;
+        grid-template-columns: auto;
+        /* grid-template-rows: 50% 50%; */
+    }
+    .lastimg1{
+        margin-top: 20%;
+        margin-left: 20%;
+        max-width: 100%;
+        max-height: 50%;
+    }
+
+    #bottombar{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        margin-top: -9%;
+        height: 70px;
+        width: 100vw;
+        background-color: rgb(24, 24, 24);
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: 25% 52% 25%;
+        
+        grid-template-rows:  100%;
+        position: relative;
+        bottom: 1%;
+        z-index: 1;
+    }
+    
+    #btmlft{
+        display: grid;
+        grid-template-columns: 19% 35% 20%;
+        grid-template-rows: 100%;
+        padding-left: 20px;
+        padding-top: 4%;
+    }
+    
+    #gheart{
+        padding-top: 32%;
+    }
+/*     
+    #btmlfttext{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 18%;
+    }
+     */
+    #text2{
+        font-size: 80%;
+        font-weight: 600;
+        padding-top: 12%;
+    }
+    
+    #text3{
+        font-size: 60%;
+        font-weight: 600;
+    }
+    
+    #pause{
+        padding-left: 12%;
+        padding-top: 1%;
+    }
+    
+    #btmrgt{
+        padding-top: 8.3%;
+        padding-left: 10%;
+    }
+    
+    #bottombar2{
+        width: 100VW;
+        height: 20px;
+        background-color: rgb(30, 215, 96);
+        position: relative;
+        bottom: 2%;
+    }
+    
+    
+     #triangle {
+        /* margin-top: -50PX; */
+        z-index: 5;
+        height: 0px;
+        width: 0px;
+        border: 10px solid transparent;
+        border-bottom: 20px solid rgb(30, 214, 96);
+        position: relative;
+        left: 84.2%;
+        bottom: 49PX;
+    }
